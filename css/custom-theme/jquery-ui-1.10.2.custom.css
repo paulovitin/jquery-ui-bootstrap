@@ -1198,25 +1198,6 @@ button.ui-button::-moz-focus-inner {
 	list-style:none;
 }
 
-/*
-* Bug inline with IE sub menu
-*/
-/* IE9, IE10 */
-@media screen and (min-width:0\0) {
-	.ui-menu li {
-	  list-style-type: none;
-	  display: inline;
-	  line-height: 0;
-	}
-
-	li.ui-menu-item { 
-	  /* This fixes the IE10 issue (jQuery UI Issue #8844)*/
-	  list-style-type: none;
-	}
-}
-
-/*******/
-
 .ui-menu .ui-menu-item {
 	margin: 0;
 	padding: 0;
